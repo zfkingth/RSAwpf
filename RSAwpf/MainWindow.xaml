@@ -36,8 +36,7 @@
         <TextBox x:Name="txtPath"
                  Grid.Row="1"
                  Grid.Column="2"
-                 VerticalAlignment="Center"
-                 Text="d:\" />
+                 VerticalAlignment="Center" />
         <StackPanel Grid.Row="1"
                     Grid.Column="3"
                     Margin="4,0,0,0"
@@ -59,8 +58,7 @@
         <TextBox x:Name="tbPublic"
                  Grid.Row="2"
                  Grid.Column="2"
-                 VerticalAlignment="Center"
-                 Text="d:\public.xls" />
+                 VerticalAlignment="Center" />
         <TextBlock Grid.Row="3"
                    Grid.Column="1"
                    VerticalAlignment="Center"
@@ -68,8 +66,7 @@
         <TextBox x:Name="tbPrivate"
                  Grid.Row="3"
                  Grid.Column="2"
-                 VerticalAlignment="Center"
-                 Text="d:\private.xls" />
+                 VerticalAlignment="Center" />
         <TextBlock Grid.Row="4"
                    Grid.Column="1"
                    VerticalAlignment="Center"
@@ -90,8 +87,7 @@
         <TextBox x:Name="tbEnc"
                  Grid.Row="4"
                  Grid.Column="2"
-                 VerticalAlignment="Center"
-                 Text="d:\test.xlsx" />
+                 VerticalAlignment="Center" />
         <TextBlock Grid.Row="5"
                    Grid.Column="1"
                    VerticalAlignment="Center"
@@ -107,7 +103,11 @@
                     Orientation="Vertical">
 
 
-            <Button Margin="2" Padding="5,0,5,0" Click="Button_Click_2">解密</Button>
+            <Button Margin="2"
+                    Click="Button_Click_2"
+                    Padding="5,0,5,0">
+                解密
+            </Button>
         </StackPanel>
     </Grid>
 </Window>
