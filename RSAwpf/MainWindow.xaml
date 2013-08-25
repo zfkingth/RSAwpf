@@ -59,19 +59,19 @@
                  Grid.Row="2"
                  Grid.Column="2"
                  VerticalAlignment="Center" />
-        <TextBlock Grid.Row="3"
+        <TextBlock Grid.Row="4"
                    Grid.Column="1"
                    VerticalAlignment="Center"
                    Text="private key path:" />
         <TextBox x:Name="tbPrivate"
-                 Grid.Row="3"
+                 Grid.Row="4"
                  Grid.Column="2"
                  VerticalAlignment="Center" />
-        <TextBlock Grid.Row="4"
+        <TextBlock Grid.Row="3"
                    Grid.Column="1"
                    VerticalAlignment="Center"
                    Text="待加密文件路径:" />
-        <StackPanel Grid.Row="4"
+        <StackPanel Grid.Row="3"
                     Grid.Column="3"
                     Margin="4,0,0,0"
                     VerticalAlignment="Center"
@@ -85,7 +85,7 @@
             </Button>
         </StackPanel>
         <TextBox x:Name="tbEnc"
-                 Grid.Row="4"
+                 Grid.Row="3"
                  Grid.Column="2"
                  VerticalAlignment="Center" />
         <TextBlock Grid.Row="5"
